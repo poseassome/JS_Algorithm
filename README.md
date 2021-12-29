@@ -22,4 +22,8 @@
 - [중복단어 제거하기](./note/기본_note/17_note.md)   
 
 ## 1, 2차원 배열 탐색
-- [](./note/배열탐색_note/.md)
+- [](./note/배열탐색_note/1_note.md)
+- [](./note/배열탐색_note/2_note.md)
+- [](./note/배열탐색_note/3_note.md)
+- [](./note/배열탐색_note/4_note.md)
+- [](./note/배열탐색_note/5_note.md)
