@@ -27,3 +27,13 @@
 - [가위바위보 승자 출력하기](./note/배열탐색_note/3_note.md)
 - [점수 계산하기](./note/배열탐색_note/4_note.md)
 - [등수 구하기](./note/배열탐색_note/5_note.md)
+- [격자판 최대 합 구하기](./note/배열탐색_note/6_note.md)
+- [봉우리 수 구하기](./note/배열탐색_note/7_note.md)
+
+## 문자열 탐색
+- [회문 문자열](./note/문자열탐색_note/1_note.md)
+- [유효한 팰린드롬](./note/문자열탐색_note/2_note.md)
+- [숫자만 추출하기](./note/문자열탐색_note/3_note.md)
+- [가장 짧은 문자거리 구하기](./note/문자열탐색_note/4_note.md)
+- [문자열 압축](./note/문자열탐색_note/5_note.md)
+
