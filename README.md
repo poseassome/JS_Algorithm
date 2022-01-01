@@ -37,3 +37,9 @@
 - [가장 짧은 문자거리 구하기](./note/문자열탐색_note/4_note.md)
 - [문자열 압축](./note/문자열탐색_note/5_note.md)
 
+## 완전 탐색 (Brute Force)
+- [자리수의 합 구하기](./완전탐색_note/1_note.md)
+- [뒤집은 소수 구하기](./완전탐색_note/2_note.md)
+- [멘토링 경우의 수 구하기](./완전탐색_note/3_note.md)
+- [졸업선물 경우의 수 구하기](./완전탐색_note/4_note.md)
+- [K번째 큰 수 구하기](./완전탐색_note/5_note.md)
