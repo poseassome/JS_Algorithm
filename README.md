@@ -43,3 +43,12 @@
 - [멘토링 경우의 수 구하기](./note/완전탐색_note/3_note.md)
 - [졸업선물 경우의 수 구하기](./note/완전탐색_note/4_note.md)
 - [K번째 큰 수 구하기](./note/완전탐색_note/5_note.md)
+
+## 효율성 (Two pointers algorithm/ Sliding window/ Hash map)
+- ### Two Pointers Algorithm
+    - [두 배열 합치기](./note/효율성_note/TwoPointersAlgorithm/1_note.md)
+    - [공통 원소 구하기](./note/효율성_note/TwoPointersAlgorithm/2_note.md)
+    - [연속 부분수열1](./note/효율성_note/TwoPointersAlgorithm/3_note.md)
+    - [연속 부분수열2](./note/효율성_note/TwoPointersAlgorithm/4_note.md)
+- ### Sliding Window
+    - [최대 매출 구하기](./note/효율성_note/SlidingWindow/1_note.md)
