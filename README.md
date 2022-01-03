@@ -52,3 +52,8 @@
     - [연속 부분수열2](./note/효율성_note/TwoPointersAlgorithm/4_note.md)
 - ### Sliding Window
     - [최대 매출 구하기](./note/효율성_note/SlidingWindow/1_note.md)
+- ### Hash map
+    - [학급 확장](./note/효율성_note/HashMap/1_note.md)
+    - [Anagram](./note/효율성_note/HashMap/2_note.md)
+    
+- [모든 Anagram 찾기](./note/효율성_note/All_note.md)
