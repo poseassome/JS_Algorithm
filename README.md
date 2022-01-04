@@ -55,5 +55,13 @@
 - ### Hash map
     - [학급 확장](./note/효율성_note/HashMap/1_note.md)
     - [Anagram](./note/효율성_note/HashMap/2_note.md)
-    
+
 - [모든 Anagram 찾기](./note/효율성_note/All_note.md)
+
+## 자료구조
+- ### Stack
+    - [올바른 괄호 찾기](./note/자료구조_note/스택/1_note.md)
+    - [괄호 문자 제거하기](./note/자료구조_note/스택/2_note.md)
+    - [크레인 인형뽑기](./note/자료구조_note/스택/3_note.md)
+    - [후위식 연산](./note/자료구조_note/스택/4_note.md)
+    - [레이저로 잘린 쇠막대기 조각 수 구하기](./note/자료구조_note/스택/5_note.md)
