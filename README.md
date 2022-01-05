@@ -65,3 +65,6 @@
     - [크레인 인형뽑기](./note/자료구조_note/스택/3_note.md)
     - [후위식 연산](./note/자료구조_note/스택/4_note.md)
     - [레이저로 잘린 쇠막대기 조각 수 구하기](./note/자료구조_note/스택/5_note.md)
+- ### Queue
+    - [공주 구하기](./note/자료구조_note/큐/1_note.md)
+    - [교육과정 설계하기](./note/자료구조_note/큐/2_note.md)

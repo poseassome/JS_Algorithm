@@ -16,10 +16,42 @@ C, G, E, A, D, B 순서로 짰다면 잘 못 설계된 수업계획이 됩니다
 
 > ## 풀이
 
+필수과목을 순서대로 queue에 넣어둔다.
 
+주어진 수업계획 하나하나를 탐색한다.<br/>
+탐색한 과목이 queue에 있는지 확인하고 있으면 queue에서 제거한다.
+
+필수 과목이 아닌 경우에는 그냥 지나간다.
 ***
 
 #### 전체 코드
 ```html
+<html>
 
+<head>
+  <meta charset="UTF-8">
+  <title>교육과정 설계</title>
+</head>
+
+<body>
+  <script>
+    function solution(need, plan) {
+      let answer = "YES";
+      let queue = need.split('');
+      for (let x of plan) {
+        if (queue.includes(x)) {
+          if (x !== queue.shift()) return "NO";     // queue에 존재하지만 순서가 맞지 않을 때
+        }
+      }
+      if (queue.length > 0) return "NO";
+      return answer;
+    }
+
+    let a = "CBA";
+    let b = "CBDAGE";
+    console.log(solution(a, b));
+  </script>
+</body>
+
+</html>
 ```

@@ -8,7 +8,14 @@
 <body>
   <script>
     function solution(need, plan) {
-
+      let answer = "YES";
+      let queue = need.split('');
+      for (let x of plan) {
+        if (queue.includes(x)) {
+          if (x !== queue.shift()) return "NO";     // queue에 존재하지만 순서가 맞지 않을 때
+        }
+      }
+      if (queue.length > 0) return "NO";
       return answer;
     }
 
