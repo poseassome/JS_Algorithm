@@ -73,3 +73,5 @@
 - ### 정렬
     - [선택 정렬](./note/정렬,그리디,이분검색_note/정렬/1_note.md)
     - [버블 정렬](./note/정렬,그리디,이분검색_note/정렬/2_note.md)
+    - [버블 정렬 응용 - Special sort](./note/정렬,그리디,이분검색_note/정렬/3_note.md)
+    - [삽입 정렬](./note/정렬,그리디,이분검색_note/정렬/4_note.md)

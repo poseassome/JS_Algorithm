@@ -10,10 +10,36 @@ N개의 정수가 입력되면 당신은 입력된 값을 정렬해야 한다.
 
 > ## 풀이
 
-
+이웃한 숫자끼리 비교를 한다.
 ***
 
 #### 전체 코드
 ```html
+<html>
 
+<head>
+  <meta charset="UTF-8">
+  <title>버블정렬 응용</title>
+</head>
+
+<body>
+  <script>
+    function solution(arr) {
+      let answer = arr;
+      for (let i = 0; i < arr.length - 1; i++) {
+        for (let j = 0; j < arr.length - i - 1; j++) {
+          if (arr[j] > 0 && arr[j + 1] < 0) {
+            [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+          }
+        }
+      }
+      return answer;
+    }
+
+    let arr = [1, 2, 3, -3, -2, 5, 6, -6];
+    console.log(solution(arr));
+  </script>
+</body>
+
+</html>
 ```
