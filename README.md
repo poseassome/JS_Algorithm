@@ -76,5 +76,6 @@
     - [버블 정렬 응용 - Special sort](./note/정렬,그리디,이분검색_note/정렬/3_note.md)
     - [삽입 정렬](./note/정렬,그리디,이분검색_note/정렬/4_note.md)
     - [삽입 정렬 응용 - LRU(카카오 캐시)](./note/정렬,그리디,이분검색_note/정렬/5_note.md)
+    - [좌표 정렬](./note/정렬,그리디,이분검색_note/정렬/6_note.md)
 - ### 그리디
     - [장난꾸러기 현수](./note/정렬,그리디,이분검색_note/그리디/1_note.md)
