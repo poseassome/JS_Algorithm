@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>뮤직비디오</title>
+</head>
+
+<body>
+  <script>
+    function count(songs, capacity) {
+      // cnt : DVD 장 수, sum : DVD 한 장에 저장되는 용량(누적), capacity : DVD의 용량
+      let cnt = 1, sum = 0;
+      for (let x of songs) {
+        if (sum + x > capacity) {
+          cnt++;
+          sum = x;
+        }
+        else sum += x;
+      }
+      return cnt;
+    }
+    function solution(m, songs) {
+      let answer;
+      let lt = Math.max(...songs);    // 가장 큰 값 찾기
+      let rt = songs.reduce((a, b) => a + b, 0);    // 누적하여 더하기
+      while (lt <= rt) {
+        let mid = parseInt((lt + rt) / 2);
+        // mid값을 DVD 한 장의 용량이라 했을 때 총 몇장이 필요한지 구함 --> count()
+        if (count(songs, mid) <= m) {
+          answer = mid;
+          rt = mid - 1;
+        }
+        else lt = mid + 1;
+      }
+      return answer;
+    }
+
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    console.log(solution(3, arr));
+  </script>
+</body>
+
+</html>
