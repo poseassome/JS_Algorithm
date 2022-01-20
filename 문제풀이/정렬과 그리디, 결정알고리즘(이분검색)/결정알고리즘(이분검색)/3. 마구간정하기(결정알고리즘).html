@@ -8,7 +8,31 @@
 <body>
   <script>
     function count(stable, dist) {
-
+      // cnt : 말의 개수
+      let cnt = 1, ep = stable[0];
+      for (let i = 1; i < stable.length; i++) {
+        if (stable[i] - ep >= dist) {
+          cnt++;
+          ep = stable[i];
+        }
+      }
+      return cnt;
+    }
+    function solution(c, stable) {
+      let answer;
+      stable.sort((a, b) => a - b);
+      let lt = 1;
+      let rt = stable[stable.length - 1];
+      while (lt <= rt) {
+        let mid = parseInt((lt + rt) / 2);
+        if (count(stable, mid) >= c) { // count() : 말을 몇 마리 배치할 수 있는지 return
+          answer = mid;
+          // 해당 거리로 배치할 수 있으면 그것보다 더 큰 거리는 무조건 가능한거니까
+          // 더 좁은 거리를 찾기위해 lt를 옮긴다.
+          lt = mid + 1;
+        }
+        else rt = mid - 1;
+      }
       return answer;
     }
 

@@ -11,7 +11,7 @@ C마리의 말을 N개의 마구간에 배치했을 때 가장 가까운 두 말
 
 > ## 풀이
 
-lt는 최소 거리 1, rt는 최대 거리 
+lt는 최소 거리 1, rt는 최대 거리로 좌표 배열의 끝
 
 첫 번째 말은 첫 번째 좌표 마구간에 배치한다. 그 말이 들어간 마구간의 위치는 `ep`에 저장한다.
 
@@ -25,5 +25,48 @@ lt는 최소 거리 1, rt는 최대 거리
 
 #### 전체 코드
 ```html
+<html>
 
+<head>
+  <meta charset="UTF-8">
+  <title>마구간 정하기</title>
+</head>
+
+<body>
+  <script>
+    function count(stable, dist) {
+      // cnt : 말의 개수
+      let cnt = 1, ep = stable[0];
+      for (let i = 1; i < stable.length; i++) {
+        if (stable[i] - ep >= dist) {
+          cnt++;
+          ep = stable[i];
+        }
+      }
+      return cnt;
+    }
+    function solution(c, stable) {
+      let answer;
+      stable.sort((a, b) => a - b);
+      let lt = 1;
+      let rt = stable[stable.length - 1];
+      while (lt <= rt) {
+        let mid = parseInt((lt + rt) / 2);
+        if (count(stable, mid) >= c) { // count() : 말을 몇 마리 배치할 수 있는지 return
+          answer = mid;
+          // 해당 거리로 배치할 수 있으면 그것보다 더 큰 거리는 무조건 가능한거니까
+          // 더 좁은 거리를 찾기위해 lt를 옮긴다.
+          lt = mid + 1;
+        }
+        else rt = mid - 1;
+      }
+      return answer;
+    }
+
+    let arr = [1, 2, 8, 4, 9];
+    console.log(solution(3, arr));
+  </script>
+</body>
+
+</html>
 ```
