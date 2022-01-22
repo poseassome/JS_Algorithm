@@ -1,0 +1,28 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>이진수 출력</title>
+</head>
+
+<body>
+  <script>
+    function solution(n) {
+      let answer = "";
+      function DFS(n) {
+        // n이 0이 됐을 때 멈춰야 한다.
+        if (n === 0) return;
+        else {
+          DFS(parseInt(n / 2));     // 여기까지 실행하고 line 12로 이동한다.
+          answer += String(n % 2);        // 이 위치에 있으면 나중에 실행된 수의 나머지부터 출력된다.
+        }
+      }
+      DFS(n);
+      return answer;
+    }
+
+    console.log(solution(11));
+  </script>
+</body>
+
+</html>
