@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>중복순열</title>
+</head>
+
+<body>
+  <script>
+    function solution(n, m) {
+      let answer = [];
+      let tmp = Array.from({ length: m }, () => 0);
+      // L이 몇 중 for문을 돌아야하는지 결정
+      function DFS(L) {
+        if (L === m) {
+          answer.push(tmp.slice());     // 복사해서 새로 생성해서 추가해야되기 때문에 slice() 사용
+        } else {
+          for (let i = 1; i <= n; i++) {
+            tmp[L] = i;
+            DFS(L + 1);
+          }
+        }
+      }
+      DFS(0);
+      return answer;
+    }
+
+    console.log(solution(3, 2));
+  </script>
+</body>
+
+</html>

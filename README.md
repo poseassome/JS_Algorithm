@@ -92,3 +92,8 @@
 - [이진트리 순회](./note/재귀함수와완전탐색(DFS:깊이우선탐색)_note/3_note.md)
 - [부분집합 구하기](./note/재귀함수와완전탐색(DFS:깊이우선탐색)_note/4_note.md)
 - [헙아 겉운 부분집합](./note/재귀함수와완전탐색(DFS:깊이우선탐색)_note/5_note.md)
+- [바둑이 승차](./note/재귀함수와완전탐색(DFS:깊이우선탐색)_note/6_note.md)
+- [최대 점수 구하기](./note/재귀함수와완전탐색(DFS:깊이우선탐색)_note/7_note.md)
+- [중복 순열](./note/재귀함수와완전탐색(DFS:깊이우선탐색)_note/8_note.md)
+- [동전 교환](./note/재귀함수와완전탐색(DFS:깊이우선탐색)_note/9_note.md)
+- [순열 구하기](./note/재귀함수와완전탐색(DFS:깊이우선탐색)_note/10_note.md)
