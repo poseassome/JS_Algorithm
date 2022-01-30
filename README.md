@@ -109,3 +109,6 @@
 - [경로탐색 (DFS-인접리스트: 노드 개수가 많을 때)](./note/그래프와탐색(DFS,BFS:넓이우선탐색)_note/3_note.md)
 - [미로 탐색](./note/그래프와탐색(DFS,BFS:넓이우선탐색)_note/4_note.md)
 - [이진트리-넓이우선탐색](./note/그래프와탐색(DFS,BFS:넓이우선탐색)_note/5_note.md)
+- [송아지 찾기 (BFS)](./note/그래프와탐색(DFS,BFS:넓이우선탐색)_note/6_note.md)
+- [섬나라 아일랜드 (DFS)](./note/그래프와탐색(DFS,BFS:넓이우선탐색)_note/7_note.md)
+- [섬나라 아일랜드 (BFS)](./note/그래프와탐색(DFS,BFS:넓이우선탐색)_note/8_note.md)
